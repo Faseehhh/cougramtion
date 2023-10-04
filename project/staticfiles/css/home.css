@@ -1,0 +1,57 @@
+/* Custom CSS for the navigation bar */
+.navbar {
+    background-color: #007bff; /* Background color */
+    padding: 10px 0; /* Top and bottom padding */
+    border-bottom: 3px solid #0056b3; /* Bottom border */
+}
+
+.navbar-brand {
+    color: #fff; /* Text color */
+    font-size: 24px; /* Font size */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Toggler icon color */
+}
+
+.navbar-toggler {
+    border: none; /* Remove button border */
+}
+
+/* Custom CSS for the navigation links */
+.navbar-nav .nav-item {
+    margin-right: 15px; /* Spacing between nav items */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Text color */
+    font-weight: bold; /* Font weight */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3; /* Hover color */
+}
+
+/* Custom CSS for the paragraphs */
+p {
+    font-size: 18px; /* Font size */
+    line-height: 1.5; /* Line height for better readability */
+    margin: 20px 0; /* Top and bottom margin */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar-nav .nav-item {
+        margin-right: 0; /* Remove margin between nav items on small screens */
+        margin-bottom: 10px; /* Add margin below each nav item */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 16px; /* Reduce font size on small screens */
+    }
+
+    p {
+        font-size: 16px; /* Reduce font size for paragraphs on small screens */
+    }
+}

@@ -1,0 +1,88 @@
+/* custom.css */
+
+/* Style the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+/* Style the container */
+.container {
+    margin-top: 20px;
+}
+
+/* Style the login form */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    font-weight: bold;
+}
+
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container .btn-primary {
+    background-color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container .btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.form-container .btn-secondary {
+    background-color: #95a5a6;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container .btn-secondary:hover {
+    background-color: #7f8c8d;
+}
+
+.form-container .link {
+    margin-top: 10px;
+}
+
+.form-container .link a {
+    text-decoration: none;
+    color: #3498db;
+    margin-left: 10px;
+}
+
+.form-container .link a:hover {
+    text-decoration: underline;
+}
